@@ -1,0 +1,54 @@
+{
+  "name": "quiaiste",
+  "description": "Some tweaks for beautifying HTML with js-beautify according to my preferences.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/NellaKuhn/quiaiste.git",
+  "author": "CelestinoLowe",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NellaKuhn/quiaiste.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NellaKuhn/quiaiste.git/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "condense-newlines": "^0.2.1",
+    "extend-shallow": "^2.0.1",
+    "js-beautify": "^1.6.12"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.12",
+    "mocha": "^3.2.0"
+  },
+  "keywords": [
+    "beautify",
+    "tempora",
+    "et",
+    "quia",
+    "quia",
+    "reiciendis",
+    "officia",
+    "pretty"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
